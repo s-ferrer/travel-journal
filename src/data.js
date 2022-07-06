@@ -1,5 +1,6 @@
 const dataCard = [
   {
+    id: 1,
     title: "Mount Fuji",
     location: "Japan",
     googleMapsUrl: "https://goo.gl/maps/rx2w11fUXM41in1aA",
@@ -11,6 +12,7 @@ const dataCard = [
   },
 
   {
+    id: 2,
     title: "Madrid",
     location: "Spain",
     googleMapsUrl: "https://goo.gl/maps/mzVeHwRPsLVfzMEu6",
@@ -21,6 +23,7 @@ const dataCard = [
     imageUrl: "https://unsplash.com/photos/rZwGJrkYFFY",
   },
   {
+    id: 3,
     title: "Bali",
     location: "Indonesia",
     googleMapsUrl: "https://goo.gl/maps/yBtBxF88fSAa48J56",
