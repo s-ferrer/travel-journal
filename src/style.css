@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  border: #2d3335;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #f55a5a;
+  color: rgb(78, 76, 76);
+  padding: 8%;
+  margin: 50px;
+  padding: 10px;
+}
+.globe {
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+
+  color: rgb(0, 0, 0);
+}
+.title {
+  font-size: 32px;
+  margin: 16px;
+}
+.card {
+  display: flex;
+  margin: 50px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.card-stats {
+  margin: 20px;
+}
+.card-img {
+  width: 30%;
+}
+.locationIcon {
+  width: 15px;
+  margin-top: 5px;
+  filter: blue(100%);
+}
+.location {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.googleMap {
+  color: gray;
+  font-size: 16px;
+  margin: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-date {
+  font-size: 16px;
+  font-weight: bold;
+}
+.card-description {
+  font-size: 16px;
 }
