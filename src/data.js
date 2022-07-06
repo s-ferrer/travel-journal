@@ -19,7 +19,7 @@ const dataCard = [
     startDate: "12 Jan, 2021",
     endDate: "24 Jan, 2021",
     description:
-      "Madrid is the capital of Spain and is a great plaze and very busy in the city center ",
+      "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings ",
     imageUrl: "https://source.unsplash.com/JmuyB_LibRo",
   },
   {
@@ -30,7 +30,7 @@ const dataCard = [
     startDate: "10 Feb, 2019",
     endDate: "29 March, 2019",
     description:
-      "Bali is an amazing destination for scuba diving and yoga. Clear water and beautiful landscapes",
+      "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
     imageUrl: "https://source.unsplash.com/3PeSjpLVtLg",
   },
 ];
