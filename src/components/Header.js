@@ -1,10 +1,11 @@
 import React from "react";
+import globeImage from "../images/globe.png";
 
 export default function Header() {
   return (
-    <section className="header">
-      <image src="" alt="logo globe" className="logo" />
+    <div className="header">
+      <img src={globeImage} alt="globe icon" className="globe" />
       <p>Travel Journal</p>
-    </section>
+    </div>
   );
 }
